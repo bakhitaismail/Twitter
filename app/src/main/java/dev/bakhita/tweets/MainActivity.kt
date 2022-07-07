@@ -10,8 +10,9 @@ class MainActivity : AppCompatActivity() {
     lateinit var binding:ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding=ActivityMainBinding.inflate(layoutInflater)
+        binding= dev.bakhita.tweets.databinding.ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        displayContacts()
     }
     fun displayContacts() {
         var tweet1 = Twitter("Bakhita","@bakkyismail","Hello world! ","1,200","10,000","150,000","2,900","")

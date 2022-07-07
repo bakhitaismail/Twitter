@@ -40,7 +40,6 @@ class TwitterViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
     var tvRetweet= itemView.findViewById<TextView>(R.id.tvRetweet)
     var tvLike= itemView.findViewById<TextView>(R.id.tvLike)
     var tvshare= itemView.findViewById<TextView>(R.id.tvShare)
-
     var imgProfile=itemView.findViewById<ImageView>(R.id.imgProfile)
 
 }
